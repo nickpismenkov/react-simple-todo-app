@@ -1,0 +1,40 @@
+* {
+    transition: 1s;
+}
+
+.todo {
+    border: 2px solid black;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    min-width: 500px;
+}
+
+.todo .text {
+    display: inline;
+    margin: 1%;
+    color: black;
+    font-size: 2rem;
+}
+
+.todo button {
+    display: inline;
+    margin: 1%;
+    border: none;
+    border-radius: 5px;
+    background-color: #ac3434;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    outline: none;
+}
+
+.todo button:hover {
+    background-color: #5a0505;
+}
